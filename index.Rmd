@@ -3,10 +3,10 @@ title: "Projects"
 author: "James Laird-Smith"
 output: 
     html_document:
-        toc: FALSE
-        toc_float: FALSE
+        toc: TRUE
+        toc_float: TRUE
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```

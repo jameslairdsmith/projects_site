@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(googlesheets4)
 library(tidyverse)
 library(DT)
+library(emo)
 ```
 
 ```{r include=FALSE}
@@ -29,8 +30,12 @@ plover_punctuation <- read_csv("plover_punctuation.csv")
 
 ```{r echo=FALSE}
 plover_punctuation %>% 
+  mutate(Uses_Star = if_else(Uses_Star,
+                             as.character(emo::ji("check")),
+                             as.character(emo::ji("multiplication")))) %>% 
   datatable(rownames = FALSE,
             options = list(pageLength = 56,
-                           lengthChange = FALSE))
+                           lengthChange = FALSE),
+            escape = "Uses_Star")
 ```
 

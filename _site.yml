@@ -1,0 +1,6 @@
+name: "Projects"
+navbar:
+  title: "Projects"
+  left:
+    - text: "Home"
+      href: index.html

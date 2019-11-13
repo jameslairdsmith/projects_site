@@ -1,0 +1,12 @@
+---
+title: "Projects"
+author: "James Laird-Smith"
+output: 
+    html_document:
+        toc: FALSE
+        toc_float: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

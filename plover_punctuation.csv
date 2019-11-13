@@ -1,0 +1,57 @@
+Description,Character,Stroke,Simple_Stroke,Sound,Uses_Star,Spaced
+"Full stop, spaced",.,TP-PL,F-PL,full stop,FALSE,TRUE
+"Decimal point, unspaced",.,P-P,-,point,FALSE,FALSE
+"Suspension point, then capital",...,SKWR-RBGS,SY-SHUN,suspension,FALSE,NA
+"Ellipsis, then lowercase",...,HR-PS,L-PS,ellipsis,FALSE,NA
+"Question mark, spaced",?,H-F,-,-,FALSE,TRUE
+"Exclamation mark, spaced",!,SKHRAPL,SKLAM,exclamation,FALSE,TRUE
+"Opening single quote/apostrophe, no space",',A*E,-,apostrophe,TRUE,FALSE
+"Closing single quote/apostrophe, space",',AE,-,apostrophe,FALSE,TRUE
+"Opening quotation mark, no space","""",KW-GS,Q-SHUN,quotation,FALSE,FALSE
+"Closing quotation mark, space","""",KR-GS,C-SHUN,closing quotation,FALSE,TRUE
+"Comma, spaced",",",KW-BG,-,-,FALSE,TRUE
+"Semi-colon, spaced",;,SKWR*RBGS or STPH*FPLT,-,-,TRUE,TRUE
+"Colon, spaced",:,STPH-FPLT,-,-,FALSE,TRUE
+"Colon, unspaced",:,KHR-PB,KL-N,colon,FALSE,FALSE
+"Hyphen, unspaced",-,H-PB,H-N,NA,NA,NA
+Dash,--,TK-RB,D-SH,NA,NA,NA
+"Minus, spaced",-,PH-PBS,M-NS,NA,NA,NA
+Plus,+,PHR*US,PL*US,NA,NA,NA
+Unspaced equals,=,KWA*LS,QA*LS,NA,NA,NA
+Spaced equals,=,KW-L,Q-L,NA,NA,NA
+Star,*,STA*R,-,NA,NA,NA
+Opening angle bracket,<,NA,ANGT,NA,NA,NA
+Closing angle bracket,>,NA,A*NGT,NA,NA,NA
+Less than,<,NA,NA,NA,NA,NA
+Greater than,>,NA,NA,NA,NA,NA
+Opening angle bracket,<,NA,NA,NA,NA,NA
+Closing angle bracket,>,NA,NA,NA,NA,NA
+Opening parenthesis,(,NA,NA,NA,NA,NA
+Closing parenthesis,),NA,NA,NA,NA,NA
+Opening bracket,[,NA,NA,NA,NA,NA
+Closing bracket,],NA,NA,NA,NA,NA
+Opening French bracket,{,NA,NA,NA,NA,NA
+Closing French bracket,},NA,NA,NA,NA,NA
+"Forward slash, unspaced",/,NA,NA,NA,NA,NA
+Backslash,\,NA,NA,NA,NA,NA
+"Tilde, spaced",~,NA,NA,NA,NA,NA
+"Tilde, unspaced",~,NA,NA,NA,NA,NA
+At-sign,@,NA,NA,NA,NA,NA
+Hash sign,#,NA,NA,NA,NA,NA
+Dollar mark,$,NA,NA,NA,NA,NA
+Percent,%,NA,NA,NA,NA,NA
+Caret,^,NA,NA,NA,NA,NA
+Ampersand,&,NA,NA,NA,NA,NA
+Underscore,_,NA,NA,NA,NA,NA
+Pipe,|,NA,NA,NA,NA,NA
+"Grave character, backwards",`,NA,NA,NA,NA,NA
+Opening backquote,`,NA,NA,NA,NA,NA
+Closing backquote,`,NA,NA,NA,NA,NA
+Return key,{return},NA,NA,NA,NA,NA
+New paragraph,{new paragraph},NA,NA,NA,NA,NA
+Undo stroke,{undo stroke},NA,NA,NA,NA,NA
+Backspace,{backspace},NA,NA,NA,NA,NA
+Delete space,{delete space},NA,NA,NA,NA,NA
+Insert space,{space},NA,NA,NA,NA,NA
+Capital with space,{capital with space},NA,NA,NA,NA,NA
+Capital without space,{Capital without space},NA,NA,NA,NA,NA

@@ -1,0 +1,36 @@
+---
+title: "Plover punctuation"
+author: "James Laird-Smith"
+output: 
+    html_document:
+        toc: FALSE
+        toc_float: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(googlesheets4)
+library(tidyverse)
+library(DT)
+```
+
+```{r include=FALSE}
+# plover_punctuation <- 
+#   read_sheet("1X96EwzkbvOwO9162C1aF3vIQuWFTelZU2PQfFYuYtkg",  
+#              sheet = "punctuation")
+# 
+# plover_punctuation %>% 
+#   write_csv("plover_punctuation.csv")
+```
+
+```{r include=FALSE}
+plover_punctuation <- read_csv("plover_punctuation.csv")
+```
+
+```{r echo=FALSE}
+plover_punctuation %>% 
+  datatable(rownames = FALSE,
+            options = list(pageLength = 56,
+                           lengthChange = FALSE))
+```
+
